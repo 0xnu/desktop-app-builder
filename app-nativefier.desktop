@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=app-nativefier
+Terminal=false
+Categories=Audio;AudioVideo
+Icon=Pandora
+
+Name=Pandora
+GenericName=Music
+Comment=A desktop client for Pandora

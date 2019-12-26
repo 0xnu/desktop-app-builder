@@ -1,0 +1,19 @@
+{
+  "name": "desktop-app-builder",
+  "version": "0.1.0",
+  "description": "A desktop app builder.",
+  "scripts": {
+    "osx": "nativefier -p osx -i ./og-image.png  -n 'Pandora' 'https://www.pandora.com'",
+    "linux": "nativefier -p linux -i ./og-image.png  -n 'Pandora' 'https://www.pandora.com'",
+    "windows": "nativefier -p windows -i ./og-image.png  -n 'Pandora' 'https://www.pandora.com'",
+    "clean": "rimraf pkg src *.pkg.tar*"
+  },
+  "author": "Finbarrs Oketunji <oketunjifinbarrs@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "nativefier": "^7.6.12"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.3"
+  }
+}

@@ -8,8 +8,10 @@ A simple script for building Electron powered desktop apps. It supports macOS, W
 # Build
 
 ```bash
-$ chmod +x build.sh
-$ ./build.sh
+$ npm install
+$ npm run-script osx
+$ npm run-script linux
+$ npm run-script windows
 ```
 
 ## Note
